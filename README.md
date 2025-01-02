@@ -38,10 +38,9 @@ This sentiment analysis model classifies user-inputted text into three categorie
 
 ### Model Description
 
-<!-- Provide a longer summary of what this model is. -->
 - **Developed by:** [https://huggingface.co/bareeraqrsh]
 - **Model type:** [sentiment-analysis]
-- **Language(s) (NLP):** [english]
+- **Language(s) (NLP):** [English]
 - **License:** [MIT]
 - **Finetuned from model [distillbert]:** [sistillbert-base-uncased]
 
@@ -95,39 +94,10 @@ In direct use, the model functions as a standalone tool for basic sentiment anal
 4. **Human Oversight**: Use human review for high-stakes applications to ensure accuracy and context.
 5. **Regular Evaluation**: Continuously monitor and update the model to improve performance and adapt to new data.
 
-## Training Details
+## Dataset and training Details
 
-### Training Data
+Dataset loaded from dataset library in huggingface hub contains splits for dataset into training, validation and testing datasets.
 
-<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
+Link to the dataset used:
 
-[More Information Needed]
-
-### Training Procedure
-
-<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
-
-#### Training Hyperparameters
-
-- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
-
-
-## Evaluation
-
-<!-- This section describes the evaluation protocols and provides the results. -->
-
-#### Testing Data
-
-dataset added from dataset library in huggingface hub
-
-Sp1786/multiclass-sentiment-analysis-dataset
-
-#### Metrics
-
-accuracy and f1 score
-
-### Results
-
-[More Information Needed]
-
-#### Summary
+https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
