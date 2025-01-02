@@ -65,7 +65,7 @@ Dataset loaded from dataset library in huggingface hub contains splits for datas
 
    This model is a distilled version of the BERT base model.   
 
-- The run and evaluation was visulaized using wandb.ai
+- The run and evaluation was visualized using wandb.ai
 
    ![image](https://github.com/user-attachments/assets/d7950fa2-bc79-41dc-86f4-bd12f7248445)
 
