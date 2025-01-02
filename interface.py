@@ -305,10 +305,10 @@ from huggingface_hub import notebook_login
 notebook_login()
 
 # Set your Hugging Face token
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "your_access_token_here"
 
 # Set your ngrok auth token
-ngrok.set_auth_token("2qtnkBjfQWANDutsklLyuk1OfIc_nVLdwqEjTWXkGjwLsJDb")
+ngrok.set_auth_token("set_your_Authorisation_token_here")
 
 from flask import render_template_string
 
