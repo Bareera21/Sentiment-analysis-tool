@@ -101,3 +101,14 @@ Dataset loaded from dataset library in huggingface hub contains splits for datas
 Link to the dataset used:
 
 https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
+
+HuggingFace repo for this model:
+
+https://huggingface.co/bareeraqrsh/Sentiment-analysis-tool
+
+Base model used:
+
+https://huggingface.co/distilbert/distilbert-base-uncased
+
+This model is a distilled version of the BERT base model.   
+
