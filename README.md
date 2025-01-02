@@ -20,9 +20,10 @@ This project provides a sentiment analysis web application that utilizes Hugging
 
 - **AI Model:** Hugging Face Transformers (DistilBERT)
 - **Backend Framework:** Flask
-- **Frontend Framework:** HTML, CSS, JavaScript
+- **Frontend Framework:** HTML, CSS, JavaScript, Bootstrap
 - **Environment:** Python 3.x, pip/venv
 - **Version Control:** Git and GitHub
+- This website was hosted using Ngrok 
 
 # Model Card
 
