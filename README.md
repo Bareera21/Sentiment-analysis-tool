@@ -5,13 +5,26 @@ datasets:
 language:
 - en
 metrics:
-- accuracy
-- f1
+- Accuracy
+- f1-score
 base_model:
 - distilbert/distilbert-base-uncased
 library_name: transformers
 ---
-# Model Card for Model ID
+
+# Sentiment Analysis Web App
+
+This project provides a sentiment analysis web application that utilizes Hugging Face's `DistilBERT` transformer model to classify text into positive, negative, or neutral sentiments. The model is fine-tuned for sentiment analysis, and the web interface built with Flask allows users to input text and view sentiment classification results.
+
+## Tech Stack
+
+- **AI Model:** Hugging Face Transformers (DistilBERT)
+- **Backend Framework:** Flask
+- **Frontend Framework:** HTML, CSS, JavaScript
+- **Environment:** Python 3.x, pip/venv
+- **Version Control:** Git and GitHub
+
+# Model Card
 
 **Model Overview**:  
 This sentiment analysis model classifies user-inputted text into three categories: positive, negative, or neutral. It uses natural language processing (NLP) techniques to evaluate the emotional tone of the text, providing a quick and automated way to understand sentiment. 
@@ -33,6 +46,24 @@ This sentiment analysis model classifies user-inputted text into three categorie
 **Recommendations**:  
 - Regular updates and monitoring to mitigate biases and improve accuracy.
 - Human oversight in high-stakes applications to verify model outputs.
+
+## Dataset and training Details
+
+Dataset loaded from dataset library in huggingface hub contains splits for dataset into training, validation and testing datasets.
+
+Link to the dataset used:
+
+https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
+
+HuggingFace repo for this model:
+
+https://huggingface.co/bareeraqrsh/Sentiment-analysis-tool
+
+Base model used:
+
+https://huggingface.co/distilbert/distilbert-base-uncased
+
+This model is a distilled version of the BERT base model.   
 
 ## Model Details
 
@@ -94,21 +125,28 @@ In direct use, the model functions as a standalone tool for basic sentiment anal
 4. **Human Oversight**: Use human review for high-stakes applications to ensure accuracy and context.
 5. **Regular Evaluation**: Continuously monitor and update the model to improve performance and adapt to new data.
 
-## Dataset and training Details
 
-Dataset loaded from dataset library in huggingface hub contains splits for dataset into training, validation and testing datasets.
+##Result
 
-Link to the dataset used:
+- Web Interface
+  
+   ![image](https://github.com/user-attachments/assets/b0bd56b8-b460-4854-9792-1d7eb37ac210)
 
-https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
+- Result for sample text file
+  
+   ![image](https://github.com/user-attachments/assets/7999b8bd-d6f5-47d2-aae1-9d2fc0e9da9e)
 
-HuggingFace repo for this model:
+- Example text input analysis
+  
+   ![image](https://github.com/user-attachments/assets/ed72456b-7766-408f-a9a9-de0539ecdebd)
 
-https://huggingface.co/bareeraqrsh/Sentiment-analysis-tool
 
-Base model used:
+## License
 
-https://huggingface.co/distilbert/distilbert-base-uncased
+This project is licensed under the MIT License.
 
-This model is a distilled version of the BERT base model.   
+
+## References
+
+https://huggingface.co/blog/sentiment-analysis-python
 
