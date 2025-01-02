@@ -51,19 +51,27 @@ This sentiment analysis model classifies user-inputted text into three categorie
 
 Dataset loaded from dataset library in huggingface hub contains splits for dataset into training, validation and testing datasets.
 
-Link to the dataset used:
+- Link to the dataset used:
 
 https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
 
-HuggingFace repo for this model:
+- HuggingFace repo for this model:
 
 https://huggingface.co/bareeraqrsh/Sentiment-analysis-tool
 
-Base model used:
+- Base model used:
 
 https://huggingface.co/distilbert/distilbert-base-uncased
 
 This model is a distilled version of the BERT base model.   
+
+- The run and evaluation was visulaized using wandb.ai
+
+![image](https://github.com/user-attachments/assets/d7950fa2-bc79-41dc-86f4-bd12f7248445)
+
+
+![image](https://github.com/user-attachments/assets/48f49c43-8684-4952-8743-23007b305cdb)
+
 
 ## Model Details
 
